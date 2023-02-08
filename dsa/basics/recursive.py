@@ -1,4 +1,4 @@
-#Normal approach with recursion with max(m,n) times the complexity
+#Normal approach with recursion with O(max(m,n)) times the complexity
 def gcd(m,n):
   (a,b)=(max(m,n),min(m,n))
   if a%b==0:
@@ -7,7 +7,7 @@ def gcd(m,n):
     gcd(a,a-b)
     
     
-#Euclids algorithm with number of digits during modulo division determines complexity (better than above approach)
+#Euclids algorithm with O(log(min(m,n))) (better than above approach)
 
 def gcd(m,n):
   (a,b)=(max(m,n),min(m,n))
@@ -17,7 +17,7 @@ def gcd(m,n):
     gcd(a,a%b)
     
     
- #Basic Approach
+ #Basic Approach = O(min(m,n))
 
 def gcd(m,n):
   for i in range(1,min(m,n)+1):
