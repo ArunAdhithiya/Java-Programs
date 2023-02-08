@@ -16,4 +16,17 @@ def gcd(m,n):
   else:
     gcd(a,a%b)
     
+    
+ #Basic Approach
+
+def gcd(m,n):
+  for i in range(1,min(m,n)+1):
+    if(m%i ==0 and n%i==0):
+      d=i
+   
+  return i
+
+x=int(input())
+y=int(input())
+gcd(x,y)
    
