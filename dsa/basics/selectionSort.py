@@ -1,3 +1,4 @@
+#O(n^2) complexity with O(n^2)
 def SelectionSort(l):
    for i in range(len(l)):
        mi=i
