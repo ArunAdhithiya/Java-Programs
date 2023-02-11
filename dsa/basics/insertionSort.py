@@ -7,3 +7,5 @@ def insertSort(l):
             j-=1
 
     return l
+
+print(insertSort([22,33,12,11,2,3,453,342]))
