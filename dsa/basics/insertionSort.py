@@ -1,4 +1,4 @@
-#O(n^2) complexity with O(n) 
+#O(n^2) complexity with O(n) in each step
 
 def insertSort(l):
     for i in range(len(l)):
@@ -10,4 +10,6 @@ def insertSort(l):
     return l
 
 print(insertSort([22,33,12,11,2,3,453,342]))
+
+
 
